@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92DB82C17FB2686006AB404 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB81A17FB2686006AB404 /* AFHTTPClient.m */; };
+		A92DB82D17FB2686006AB404 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB81C17FB2686006AB404 /* AFHTTPRequestOperation.m */; };
+		A92DB82E17FB2686006AB404 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB81E17FB2686006AB404 /* AFImageRequestOperation.m */; };
+		A92DB82F17FB2686006AB404 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB82017FB2686006AB404 /* AFJSONRequestOperation.m */; };
+		A92DB83017FB2686006AB404 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB82217FB2686006AB404 /* AFNetworkActivityIndicatorManager.m */; };
+		A92DB83117FB2686006AB404 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB82517FB2686006AB404 /* AFPropertyListRequestOperation.m */; };
+		A92DB83217FB2686006AB404 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB82717FB2686006AB404 /* AFURLConnectionOperation.m */; };
+		A92DB83317FB2686006AB404 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB82917FB2686006AB404 /* AFXMLRequestOperation.m */; };
+		A92DB83417FB2686006AB404 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB82B17FB2686006AB404 /* UIImageView+AFNetworking.m */; };
+		A92DB83B17FB26D9006AB404 /* LBYouTubeExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB83817FB26D9006AB404 /* LBYouTubeExtractor.m */; };
+		A92DB83C17FB26D9006AB404 /* LBYouTubePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB83A17FB26D9006AB404 /* LBYouTubePlayerViewController.m */; };
+		A92DB83E17FB2734006AB404 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92DB83D17FB2734006AB404 /* MobileCoreServices.framework */; };
+		A92DB84017FB273A006AB404 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92DB83F17FB273A006AB404 /* SystemConfiguration.framework */; };
+		A92DB84217FB277C006AB404 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92DB84117FB277C006AB404 /* Security.framework */; };
+		A92DB84417FB2781006AB404 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92DB84317FB2781006AB404 /* CFNetwork.framework */; };
+		A92DB84C17FB3C39006AB404 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92DB84B17FB3C39006AB404 /* QuartzCore.framework */; };
+		A92DB85417FB3C71006AB404 /* IISideController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB84F17FB3C71006AB404 /* IISideController.m */; };
+		A92DB85517FB3C71006AB404 /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB85117FB3C71006AB404 /* IIViewDeckController.m */; };
+		A92DB85617FB3C71006AB404 /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB85317FB3C71006AB404 /* IIWrapController.m */; };
+		A92DB86017FB4A4F006AB404 /* sideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92DB85E17FB4A4F006AB404 /* sideBarViewController.m */; };
+		A92DB86117FB4A4F006AB404 /* sideBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92DB85F17FB4A4F006AB404 /* sideBarViewController.xib */; };
+		A92DB8A017FB6011006AB404 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92DB89F17FB6011006AB404 /* MessageUI.framework */; };
+		A956E12017FF3C4000BD4025 /* menubaricon.png in Resources */ = {isa = PBXBuildFile; fileRef = A956E11F17FF3C4000BD4025 /* menubaricon.png */; };
+		A95AF08D17FDC3A1004090AC /* searchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95AF08B17FDC3A1004090AC /* searchViewController.m */; };
+		A95AF08E17FDC3A1004090AC /* searchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A95AF08C17FDC3A1004090AC /* searchViewController.xib */; };
+		A976C91A18004FE500E6584D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A976C91918004FE500E6584D /* CoreData.framework */; };
+		A9A067D61801C7E8002E9E2E /* TWNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A067D51801C7E8002E9E2E /* TWNotification.m */; };
+		A9C6CD3F17FC54800005F9BD /* iPhoneDownloadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C6CD3D17FC54800005F9BD /* iPhoneDownloadsViewController.m */; };
+		A9C6CD4017FC54800005F9BD /* iPhoneDownloadsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C6CD3E17FC54800005F9BD /* iPhoneDownloadsViewController.xib */; };
+		A9D6EAB217FCB1C2004C8A2E /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D6EAB117FCB1C2004C8A2E /* ExternalAccessory.framework */; };
+		A9F91B0F17FB17E600A498F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F91B0E17FB17E600A498F6 /* Foundation.framework */; };
+		A9F91B1117FB17E600A498F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F91B1017FB17E600A498F6 /* CoreGraphics.framework */; };
+		A9F91B1317FB17E600A498F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F91B1217FB17E600A498F6 /* UIKit.framework */; };
+		A9F91B1917FB17E600A498F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9F91B1717FB17E600A498F6 /* InfoPlist.strings */; };
+		A9F91B1B17FB17E600A498F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F91B1A17FB17E600A498F6 /* main.m */; };
+		A9F91B1F17FB17E600A498F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F91B1E17FB17E600A498F6 /* AppDelegate.m */; };
+		A9F91B2117FB17E600A498F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F91B2017FB17E600A498F6 /* Images.xcassets */; };
+		A9F91B2817FB17E600A498F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F91B2717FB17E600A498F6 /* XCTest.framework */; };
+		A9F91B2917FB17E600A498F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F91B0E17FB17E600A498F6 /* Foundation.framework */; };
+		A9F91B2A17FB17E600A498F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F91B1217FB17E600A498F6 /* UIKit.framework */; };
+		A9F91B3217FB17E600A498F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9F91B3017FB17E600A498F6 /* InfoPlist.strings */; };
+		A9F91B3417FB17E600A498F6 /* Youtube_DLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F91B3317FB17E600A498F6 /* Youtube_DLTests.m */; };
+		A9F91B4617FB184D00A498F6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F91B4517FB184D00A498F6 /* MediaPlayer.framework */; };
+		A9F91B4C17FB1B0C00A498F6 /* iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F91B4B17FB1B0C00A498F6 /* iPhoneViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9F91B2B17FB17E600A498F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F91B0317FB17E600A498F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F91B0A17FB17E600A498F6;
+			remoteInfo = Youtube_DL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FCC62A525674EF1B1F512A5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92DB81917FB2686006AB404 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		A92DB81A17FB2686006AB404 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		A92DB81B17FB2686006AB404 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A92DB81C17FB2686006AB404 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A92DB81D17FB2686006AB404 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		A92DB81E17FB2686006AB404 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		A92DB81F17FB2686006AB404 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		A92DB82017FB2686006AB404 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		A92DB82117FB2686006AB404 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A92DB82217FB2686006AB404 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A92DB82317FB2686006AB404 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A92DB82417FB2686006AB404 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		A92DB82517FB2686006AB404 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		A92DB82617FB2686006AB404 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A92DB82717FB2686006AB404 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A92DB82817FB2686006AB404 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		A92DB82917FB2686006AB404 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		A92DB82A17FB2686006AB404 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A92DB82B17FB2686006AB404 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A92DB83617FB26D9006AB404 /* LBYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTube.h; sourceTree = "<group>"; };
+		A92DB83717FB26D9006AB404 /* LBYouTubeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubeExtractor.h; sourceTree = "<group>"; };
+		A92DB83817FB26D9006AB404 /* LBYouTubeExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYouTubeExtractor.m; sourceTree = "<group>"; };
+		A92DB83917FB26D9006AB404 /* LBYouTubePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubePlayerViewController.h; sourceTree = "<group>"; };
+		A92DB83A17FB26D9006AB404 /* LBYouTubePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYouTubePlayerViewController.m; sourceTree = "<group>"; };
+		A92DB83D17FB2734006AB404 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A92DB83F17FB273A006AB404 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A92DB84117FB277C006AB404 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A92DB84317FB2781006AB404 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A92DB84B17FB3C39006AB404 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A92DB84E17FB3C71006AB404 /* IISideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IISideController.h; sourceTree = "<group>"; };
+		A92DB84F17FB3C71006AB404 /* IISideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IISideController.m; sourceTree = "<group>"; };
+		A92DB85017FB3C71006AB404 /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		A92DB85117FB3C71006AB404 /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		A92DB85217FB3C71006AB404 /* IIWrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
+		A92DB85317FB3C71006AB404 /* IIWrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
+		A92DB85D17FB4A4F006AB404 /* sideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sideBarViewController.h; sourceTree = "<group>"; };
+		A92DB85E17FB4A4F006AB404 /* sideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sideBarViewController.m; sourceTree = "<group>"; };
+		A92DB85F17FB4A4F006AB404 /* sideBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sideBarViewController.xib; sourceTree = "<group>"; };
+		A92DB89F17FB6011006AB404 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A95193DE180048FC001A670E /* libFlurry_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_4.2.4.a; path = "../../Downloads/Flurry iPhone SDK viPhone 4.2.4/Flurry-iOS-4.2.4/Flurry/libFlurry_4.2.4.a"; sourceTree = "<group>"; };
+		A95193E218004953001A670E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A95193E418004978001A670E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A95193E618004E1A001A670E /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../../Downloads/GoogleAnalyticsServicesiOS_3.01/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		A956E11F17FF3C4000BD4025 /* menubaricon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menubaricon.png; sourceTree = "<group>"; };
+		A95AF08A17FDC3A1004090AC /* searchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchViewController.h; sourceTree = "<group>"; };
+		A95AF08B17FDC3A1004090AC /* searchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchViewController.m; sourceTree = "<group>"; };
+		A95AF08C17FDC3A1004090AC /* searchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = searchViewController.xib; sourceTree = "<group>"; };
+		A976C91918004FE500E6584D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A976C91B18004FE900E6584D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A99F2F6C17FC9ABA0067FC13 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A9A067D41801C7E8002E9E2E /* TWNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWNotification.h; path = TWNotification/TWNotification.h; sourceTree = "<group>"; };
+		A9A067D51801C7E8002E9E2E /* TWNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWNotification.m; path = TWNotification/TWNotification.m; sourceTree = "<group>"; };
+		A9C6CD3C17FC54800005F9BD /* iPhoneDownloadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneDownloadsViewController.h; sourceTree = "<group>"; };
+		A9C6CD3D17FC54800005F9BD /* iPhoneDownloadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneDownloadsViewController.m; sourceTree = "<group>"; };
+		A9C6CD3E17FC54800005F9BD /* iPhoneDownloadsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhoneDownloadsViewController.xib; sourceTree = "<group>"; };
+		A9C6D2BB17FC65160005F9BD /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		A9D6EAB117FCB1C2004C8A2E /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		A9F91B0B17FB17E600A498F6 /* Youtube_DL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube_DL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F91B0E17FB17E600A498F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9F91B1017FB17E600A498F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9F91B1217FB17E600A498F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9F91B1617FB17E600A498F6 /* Youtube_DL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Youtube_DL-Info.plist"; sourceTree = "<group>"; };
+		A9F91B1817FB17E600A498F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9F91B1A17FB17E600A498F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9F91B1C17FB17E600A498F6 /* Youtube_DL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Youtube_DL-Prefix.pch"; sourceTree = "<group>"; };
+		A9F91B1D17FB17E600A498F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9F91B1E17FB17E600A498F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9F91B2017FB17E600A498F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9F91B2617FB17E600A498F6 /* Youtube_DLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Youtube_DLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F91B2717FB17E600A498F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A9F91B2F17FB17E600A498F6 /* Youtube_DLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Youtube_DLTests-Info.plist"; sourceTree = "<group>"; };
+		A9F91B3117FB17E600A498F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9F91B3317FB17E600A498F6 /* Youtube_DLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Youtube_DLTests.m; sourceTree = "<group>"; };
+		A9F91B4517FB184D00A498F6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A9F91B4A17FB1B0C00A498F6 /* iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneViewController.h; sourceTree = "<group>"; };
+		A9F91B4B17FB1B0C00A498F6 /* iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneViewController.m; sourceTree = "<group>"; };
+		A9F91B4D17FB239400A498F6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F91B0817FB17E600A498F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A976C91A18004FE500E6584D /* CoreData.framework in Frameworks */,
+				A9D6EAB217FCB1C2004C8A2E /* ExternalAccessory.framework in Frameworks */,
+				A92DB8A017FB6011006AB404 /* MessageUI.framework in Frameworks */,
+				A92DB84C17FB3C39006AB404 /* QuartzCore.framework in Frameworks */,
+				A92DB84417FB2781006AB404 /* CFNetwork.framework in Frameworks */,
+				A92DB84217FB277C006AB404 /* Security.framework in Frameworks */,
+				A92DB84017FB273A006AB404 /* SystemConfiguration.framework in Frameworks */,
+				A92DB83E17FB2734006AB404 /* MobileCoreServices.framework in Frameworks */,
+				A9F91B4617FB184D00A498F6 /* MediaPlayer.framework in Frameworks */,
+				A9F91B1117FB17E600A498F6 /* CoreGraphics.framework in Frameworks */,
+				A9F91B1317FB17E600A498F6 /* UIKit.framework in Frameworks */,
+				A9F91B0F17FB17E600A498F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F91B2317FB17E600A498F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F91B2817FB17E600A498F6 /* XCTest.framework in Frameworks */,
+				A9F91B2A17FB17E600A498F6 /* UIKit.framework in Frameworks */,
+				A9F91B2917FB17E600A498F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92DB81817FB2686006AB404 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A92DB81917FB2686006AB404 /* AFHTTPClient.h */,
+				A92DB81A17FB2686006AB404 /* AFHTTPClient.m */,
+				A92DB81B17FB2686006AB404 /* AFHTTPRequestOperation.h */,
+				A92DB81C17FB2686006AB404 /* AFHTTPRequestOperation.m */,
+				A92DB81D17FB2686006AB404 /* AFImageRequestOperation.h */,
+				A92DB81E17FB2686006AB404 /* AFImageRequestOperation.m */,
+				A92DB81F17FB2686006AB404 /* AFJSONRequestOperation.h */,
+				A92DB82017FB2686006AB404 /* AFJSONRequestOperation.m */,
+				A92DB82117FB2686006AB404 /* AFNetworkActivityIndicatorManager.h */,
+				A92DB82217FB2686006AB404 /* AFNetworkActivityIndicatorManager.m */,
+				A92DB82317FB2686006AB404 /* AFNetworking.h */,
+				A92DB82417FB2686006AB404 /* AFPropertyListRequestOperation.h */,
+				A92DB82517FB2686006AB404 /* AFPropertyListRequestOperation.m */,
+				A92DB82617FB2686006AB404 /* AFURLConnectionOperation.h */,
+				A92DB82717FB2686006AB404 /* AFURLConnectionOperation.m */,
+				A92DB82817FB2686006AB404 /* AFXMLRequestOperation.h */,
+				A92DB82917FB2686006AB404 /* AFXMLRequestOperation.m */,
+				A92DB82A17FB2686006AB404 /* UIImageView+AFNetworking.h */,
+				A92DB82B17FB2686006AB404 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A92DB83517FB26D9006AB404 /* LBYouTubeView */ = {
+			isa = PBXGroup;
+			children = (
+				A92DB83617FB26D9006AB404 /* LBYouTube.h */,
+				A92DB83717FB26D9006AB404 /* LBYouTubeExtractor.h */,
+				A92DB83817FB26D9006AB404 /* LBYouTubeExtractor.m */,
+				A92DB83917FB26D9006AB404 /* LBYouTubePlayerViewController.h */,
+				A92DB83A17FB26D9006AB404 /* LBYouTubePlayerViewController.m */,
+			);
+			path = LBYouTubeView;
+			sourceTree = "<group>";
+		};
+		A92DB84517FB3611006AB404 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9F91B4A17FB1B0C00A498F6 /* iPhoneViewController.h */,
+				A9F91B4B17FB1B0C00A498F6 /* iPhoneViewController.m */,
+				A92DB85D17FB4A4F006AB404 /* sideBarViewController.h */,
+				A92DB85E17FB4A4F006AB404 /* sideBarViewController.m */,
+				A92DB85F17FB4A4F006AB404 /* sideBarViewController.xib */,
+				A95AF08A17FDC3A1004090AC /* searchViewController.h */,
+				A95AF08B17FDC3A1004090AC /* searchViewController.m */,
+				A95AF08C17FDC3A1004090AC /* searchViewController.xib */,
+				A9C6CD3C17FC54800005F9BD /* iPhoneDownloadsViewController.h */,
+				A9C6CD3D17FC54800005F9BD /* iPhoneDownloadsViewController.m */,
+				A9C6CD3E17FC54800005F9BD /* iPhoneDownloadsViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A92DB84D17FB3C71006AB404 /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				A92DB84E17FB3C71006AB404 /* IISideController.h */,
+				A92DB84F17FB3C71006AB404 /* IISideController.m */,
+				A92DB85017FB3C71006AB404 /* IIViewDeckController.h */,
+				A92DB85117FB3C71006AB404 /* IIViewDeckController.m */,
+				A92DB85217FB3C71006AB404 /* IIWrapController.h */,
+				A92DB85317FB3C71006AB404 /* IIWrapController.m */,
+			);
+			path = ViewDeck;
+			sourceTree = "<group>";
+		};
+		A9F4F9D317FD9B3A00E05F19 /* TWNotification */ = {
+			isa = PBXGroup;
+			children = (
+				A9A067D41801C7E8002E9E2E /* TWNotification.h */,
+				A9A067D51801C7E8002E9E2E /* TWNotification.m */,
+			);
+			name = TWNotification;
+			sourceTree = "<group>";
+		};
+		A9F91B0217FB17E600A498F6 = {
+			isa = PBXGroup;
+			children = (
+				A9F4F9D317FD9B3A00E05F19 /* TWNotification */,
+				A92DB84D17FB3C71006AB404 /* ViewDeck */,
+				A92DB83517FB26D9006AB404 /* LBYouTubeView */,
+				A92DB81817FB2686006AB404 /* AFNetworking */,
+				A9F91B1417FB17E600A498F6 /* Youtube_DL */,
+				A9F91B2D17FB17E600A498F6 /* Youtube_DLTests */,
+				A9F91B0D17FB17E600A498F6 /* Frameworks */,
+				A9F91B0C17FB17E600A498F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9F91B0C17FB17E600A498F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F91B0B17FB17E600A498F6 /* Youtube_DL.app */,
+				A9F91B2617FB17E600A498F6 /* Youtube_DLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9F91B0D17FB17E600A498F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A976C91B18004FE900E6584D /* libz.dylib */,
+				A976C91918004FE500E6584D /* CoreData.framework */,
+				A95193E618004E1A001A670E /* libGoogleAnalyticsServices.a */,
+				A95193E418004978001A670E /* CoreLocation.framework */,
+				A95193E218004953001A670E /* MapKit.framework */,
+				A95193DE180048FC001A670E /* libFlurry_4.2.4.a */,
+				A9D6EAB117FCB1C2004C8A2E /* ExternalAccessory.framework */,
+				A99F2F6C17FC9ABA0067FC13 /* SenTestingKit.framework */,
+				A9C6D2BB17FC65160005F9BD /* libxml2.dylib */,
+				A92DB89F17FB6011006AB404 /* MessageUI.framework */,
+				A92DB84B17FB3C39006AB404 /* QuartzCore.framework */,
+				A92DB84317FB2781006AB404 /* CFNetwork.framework */,
+				A92DB84117FB277C006AB404 /* Security.framework */,
+				A92DB83F17FB273A006AB404 /* SystemConfiguration.framework */,
+				A92DB83D17FB2734006AB404 /* MobileCoreServices.framework */,
+				A9F91B4D17FB239400A498F6 /* CoreFoundation.framework */,
+				A9F91B4517FB184D00A498F6 /* MediaPlayer.framework */,
+				A9F91B0E17FB17E600A498F6 /* Foundation.framework */,
+				A9F91B1017FB17E600A498F6 /* CoreGraphics.framework */,
+				A9F91B1217FB17E600A498F6 /* UIKit.framework */,
+				A9F91B2717FB17E600A498F6 /* XCTest.framework */,
+				1FCC62A525674EF1B1F512A5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9F91B1417FB17E600A498F6 /* Youtube_DL */ = {
+			isa = PBXGroup;
+			children = (
+				A9F91B1D17FB17E600A498F6 /* AppDelegate.h */,
+				A9F91B1E17FB17E600A498F6 /* AppDelegate.m */,
+				A92DB84517FB3611006AB404 /* Views */,
+				A9F91B1517FB17E600A498F6 /* Supporting Files */,
+				A9F91B2017FB17E600A498F6 /* Images.xcassets */,
+			);
+			path = Youtube_DL;
+			sourceTree = "<group>";
+		};
+		A9F91B1517FB17E600A498F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A956E11F17FF3C4000BD4025 /* menubaricon.png */,
+				A9F91B1617FB17E600A498F6 /* Youtube_DL-Info.plist */,
+				A9F91B1717FB17E600A498F6 /* InfoPlist.strings */,
+				A9F91B1A17FB17E600A498F6 /* main.m */,
+				A9F91B1C17FB17E600A498F6 /* Youtube_DL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9F91B2D17FB17E600A498F6 /* Youtube_DLTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F91B3317FB17E600A498F6 /* Youtube_DLTests.m */,
+				A9F91B2E17FB17E600A498F6 /* Supporting Files */,
+			);
+			path = Youtube_DLTests;
+			sourceTree = "<group>";
+		};
+		A9F91B2E17FB17E600A498F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F91B2F17FB17E600A498F6 /* Youtube_DLTests-Info.plist */,
+				A9F91B3017FB17E600A498F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F91B0A17FB17E600A498F6 /* Youtube_DL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F91B3717FB17E600A498F6 /* Build configuration list for PBXNativeTarget "Youtube_DL" */;
+			buildPhases = (
+				A9F91B0717FB17E600A498F6 /* Sources */,
+				A9F91B0817FB17E600A498F6 /* Frameworks */,
+				A9F91B0917FB17E600A498F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Youtube_DL;
+			productName = Youtube_DL;
+			productReference = A9F91B0B17FB17E600A498F6 /* Youtube_DL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9F91B2517FB17E600A498F6 /* Youtube_DLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F91B3A17FB17E600A498F6 /* Build configuration list for PBXNativeTarget "Youtube_DLTests" */;
+			buildPhases = (
+				A9F91B2217FB17E600A498F6 /* Sources */,
+				A9F91B2317FB17E600A498F6 /* Frameworks */,
+				A9F91B2417FB17E600A498F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F91B2C17FB17E600A498F6 /* PBXTargetDependency */,
+			);
+			name = Youtube_DLTests;
+			productName = Youtube_DLTests;
+			productReference = A9F91B2617FB17E600A498F6 /* Youtube_DLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9F91B0317FB17E600A498F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Majd Alfhaily";
+				TargetAttributes = {
+					A9F91B0A17FB17E600A498F6 = {
+						DevelopmentTeam = VG59KHV9AE;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A9F91B2517FB17E600A498F6 = {
+						TestTargetID = A9F91B0A17FB17E600A498F6;
+					};
+				};
+			};
+			buildConfigurationList = A9F91B0617FB17E600A498F6 /* Build configuration list for PBXProject "Youtube_DL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = A9F91B0217FB17E600A498F6;
+			productRefGroup = A9F91B0C17FB17E600A498F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F91B0A17FB17E600A498F6 /* Youtube_DL */,
+				A9F91B2517FB17E600A498F6 /* Youtube_DLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F91B0917FB17E600A498F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92DB86117FB4A4F006AB404 /* sideBarViewController.xib in Resources */,
+				A9C6CD4017FC54800005F9BD /* iPhoneDownloadsViewController.xib in Resources */,
+				A956E12017FF3C4000BD4025 /* menubaricon.png in Resources */,
+				A9F91B1917FB17E600A498F6 /* InfoPlist.strings in Resources */,
+				A9F91B2117FB17E600A498F6 /* Images.xcassets in Resources */,
+				A95AF08E17FDC3A1004090AC /* searchViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F91B2417FB17E600A498F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F91B3217FB17E600A498F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F91B0717FB17E600A498F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92DB82E17FB2686006AB404 /* AFImageRequestOperation.m in Sources */,
+				A9F91B1F17FB17E600A498F6 /* AppDelegate.m in Sources */,
+				A92DB83117FB2686006AB404 /* AFPropertyListRequestOperation.m in Sources */,
+				A92DB83C17FB26D9006AB404 /* LBYouTubePlayerViewController.m in Sources */,
+				A9F91B1B17FB17E600A498F6 /* main.m in Sources */,
+				A92DB83217FB2686006AB404 /* AFURLConnectionOperation.m in Sources */,
+				A92DB83317FB2686006AB404 /* AFXMLRequestOperation.m in Sources */,
+				A92DB82F17FB2686006AB404 /* AFJSONRequestOperation.m in Sources */,
+				A92DB83417FB2686006AB404 /* UIImageView+AFNetworking.m in Sources */,
+				A92DB85517FB3C71006AB404 /* IIViewDeckController.m in Sources */,
+				A9C6CD3F17FC54800005F9BD /* iPhoneDownloadsViewController.m in Sources */,
+				A92DB83017FB2686006AB404 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A92DB86017FB4A4F006AB404 /* sideBarViewController.m in Sources */,
+				A92DB82D17FB2686006AB404 /* AFHTTPRequestOperation.m in Sources */,
+				A92DB83B17FB26D9006AB404 /* LBYouTubeExtractor.m in Sources */,
+				A95AF08D17FDC3A1004090AC /* searchViewController.m in Sources */,
+				A9F91B4C17FB1B0C00A498F6 /* iPhoneViewController.m in Sources */,
+				A92DB82C17FB2686006AB404 /* AFHTTPClient.m in Sources */,
+				A92DB85417FB3C71006AB404 /* IISideController.m in Sources */,
+				A9A067D61801C7E8002E9E2E /* TWNotification.m in Sources */,
+				A92DB85617FB3C71006AB404 /* IIWrapController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F91B2217FB17E600A498F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F91B3417FB17E600A498F6 /* Youtube_DLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9F91B2C17FB17E600A498F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F91B0A17FB17E600A498F6 /* Youtube_DL */;
+			targetProxy = A9F91B2B17FB17E600A498F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9F91B1717FB17E600A498F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F91B1817FB17E600A498F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9F91B3017FB17E600A498F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F91B3117FB17E600A498F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9F91B3517FB17E600A498F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F91B3617FB17E600A498F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9F91B3817FB17E600A498F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Youtube_DL/Youtube_DL-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode\\ 5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Youtube_DL/Youtube_DL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Majd/Downloads/Flurry\\ iPhone\\ SDK\\ viPhone\\ 4.2.4/Flurry-iOS-4.2.4/Flurry",
+					/Users/Majd/Downloads/GoogleAnalyticsServicesiOS_3.01,
+					/Users/Majd/Coding/Youtube_DL,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9F91B3917FB17E600A498F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Youtube_DL/Youtube_DL-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode\\ 5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Youtube_DL/Youtube_DL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Majd/Downloads/Flurry\\ iPhone\\ SDK\\ viPhone\\ 4.2.4/Flurry-iOS-4.2.4/Flurry",
+					/Users/Majd/Downloads/GoogleAnalyticsServicesiOS_3.01,
+					/Users/Majd/Coding/Youtube_DL,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9F91B3B17FB17E600A498F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Youtube_DL.app/Youtube_DL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Youtube_DL/Youtube_DL-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Youtube_DLTests/Youtube_DLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A9F91B3C17FB17E600A498F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Youtube_DL.app/Youtube_DL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Youtube_DL/Youtube_DL-Prefix.pch";
+				INFOPLIST_FILE = "Youtube_DLTests/Youtube_DLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F91B0617FB17E600A498F6 /* Build configuration list for PBXProject "Youtube_DL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F91B3517FB17E600A498F6 /* Debug */,
+				A9F91B3617FB17E600A498F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F91B3717FB17E600A498F6 /* Build configuration list for PBXNativeTarget "Youtube_DL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F91B3817FB17E600A498F6 /* Debug */,
+				A9F91B3917FB17E600A498F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F91B3A17FB17E600A498F6 /* Build configuration list for PBXNativeTarget "Youtube_DLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F91B3B17FB17E600A498F6 /* Debug */,
+				A9F91B3C17FB17E600A498F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9F91B0317FB17E600A498F6 /* Project object */;
+}
